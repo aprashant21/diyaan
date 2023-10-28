@@ -25,3 +25,6 @@ export type BlogApiType={
     title:string,
     desc:string,
 }
+
+export const {useAddBlogMutation, useGetAllBlogsQuery}= BlogApi;
+export default BlogApi;
